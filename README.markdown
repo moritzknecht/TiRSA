@@ -3,7 +3,17 @@
 TiRSA is a simple titanium module to create RSA keypairs and en- and decrypt text. 
 It simply wraps this Project https://github.com/kuapay/iOS-Certificate--Key--and-Trust-Sample-Project
 
-# Usage
+# Usuage
+
+## Prequesites 
+
+Add 
+```
+<module platform="iphone" version="1.0">ti.rsa</module>
+```
+to the modules tag in tiapp.xml in your Project Folder
+
+##Example Code
 
 ```
 var rsa = require('ti.rsa');
