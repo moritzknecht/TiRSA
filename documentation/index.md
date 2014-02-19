@@ -5,7 +5,7 @@ It simply wraps this Project https://github.com/kuapay/iOS-Certificate--Key--and
 
 # Usuage
 
-## Prequesites 
+## Adding the module 
 
 Add 
 ```
