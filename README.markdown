@@ -3,7 +3,7 @@
 TiRSA is a simple titanium module to create RSA keypairs and en- and decrypt text. 
 It simply wraps this Project https://github.com/kuapay/iOS-Certificate--Key--and-Trust-Sample-Project
 
-# Usuage
+# Usage
 
 ## Adding the module 
 
