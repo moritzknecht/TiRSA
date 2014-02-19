@@ -1,0 +1,6 @@
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import "BDError.h"
+    #import "BDLog.h"
+#endif

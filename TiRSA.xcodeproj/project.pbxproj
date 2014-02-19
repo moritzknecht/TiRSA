@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		24DD6CF91134B3F500162E58 /* TiRsaModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* TiRsaModule.h */; };
+		24DD6CFA1134B3F500162E58 /* TiRsaModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* TiRsaModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* TiRsaModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* TiRsaModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* TiRsaModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* TiRsaModuleAssets.m */; };
+		AA747D9F0F9514B9006C5449 /* TiRsa_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* TiRsa_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		CDB6EAEB18B413CF00FD854E /* BDAESCBC256Cryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB6EAB718B413CE00FD854E /* BDAESCBC256Cryptor.h */; };
+		CDB6EAEC18B413CF00FD854E /* BDAESCBC256Cryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6EAB818B413CE00FD854E /* BDAESCBC256Cryptor.m */; };
+		CDB6EAED18B413CF00FD854E /* BDAESCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB6EAB918B413CE00FD854E /* BDAESCryptor.h */; };
+		CDB6EAEE18B413CF00FD854E /* BDAESCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6EABA18B413CE00FD854E /* BDAESCryptor.m */; };
+		CDB6EAEF18B413CF00FD854E /* BDCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB6EABB18B413CE00FD854E /* BDCryptor.h */; };
+		CDB6EAF018B413CF00FD854E /* BDCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6EABC18B413CE00FD854E /* BDCryptor.m */; };
+		CDB6EAF118B413CF00FD854E /* BDCryptorError.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB6EABD18B413CE00FD854E /* BDCryptorError.h */; };
+		CDB6EAF218B413CF00FD854E /* BDCryptorError.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6EABE18B413CE00FD854E /* BDCryptorError.m */; };
+		CDB6EAF318B413CF00FD854E /* BDRSACryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB6EABF18B413CE00FD854E /* BDRSACryptor.h */; };
+		CDB6EAF418B413CF00FD854E /* BDRSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6EAC018B413CE00FD854E /* BDRSACryptor.m */; };
+		CDB6EAF518B413CF00FD854E /* BDRSACryptorKeyPair.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB6EAC118B413CE00FD854E /* BDRSACryptorKeyPair.h */; };
+		CDB6EAF618B413CF00FD854E /* BDRSACryptorKeyPair.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6EAC218B413CE00FD854E /* BDRSACryptorKeyPair.m */; };
+		CDB6EAF718B413CF00FD854E /* BDSHA512Cryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB6EAC318B413CE00FD854E /* BDSHA512Cryptor.h */; };
+		CDB6EAF818B413CF00FD854E /* BDSHA512Cryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6EAC418B413CE00FD854E /* BDSHA512Cryptor.m */; };
+		CDB6EAFA18B413CF00FD854E /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB6EAC818B413CE00FD854E /* NSData+Base64.h */; };
+		CDB6EAFB18B413CF00FD854E /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6EAC918B413CE00FD854E /* NSData+Base64.m */; };
+		CDB6EAFC18B413CF00FD854E /* NSString+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB6EACA18B413CE00FD854E /* NSString+Base64.h */; };
+		CDB6EAFD18B413CF00FD854E /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6EACB18B413CE00FD854E /* NSString+Base64.m */; };
+		CDB6EAFE18B413CF00FD854E /* BDJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB6EAD018B413CE00FD854E /* BDJSON.h */; };
+		CDB6EAFF18B413CF00FD854E /* BDJSONError.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB6EAD118B413CE00FD854E /* BDJSONError.h */; };
+		CDB6EB0018B413CF00FD854E /* BDJSONError.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6EAD218B413CE00FD854E /* BDJSONError.m */; };
+		CDB6EB0118B413CF00FD854E /* NSArray+BDJSONSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB6EAD318B413CE00FD854E /* NSArray+BDJSONSerialization.h */; };
+		CDB6EB0218B413CF00FD854E /* NSArray+BDJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6EAD418B413CE00FD854E /* NSArray+BDJSONSerialization.m */; };
+		CDB6EB0318B413CF00FD854E /* NSData+BDJSONSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB6EAD518B413CE00FD854E /* NSData+BDJSONSerialization.h */; };
+		CDB6EB0418B413CF00FD854E /* NSData+BDJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6EAD618B413CE00FD854E /* NSData+BDJSONSerialization.m */; };
+		CDB6EB0518B413CF00FD854E /* NSDictionary+BDJSONSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB6EAD718B413CE00FD854E /* NSDictionary+BDJSONSerialization.h */; };
+		CDB6EB0618B413CF00FD854E /* NSDictionary+BDJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6EAD818B413CE00FD854E /* NSDictionary+BDJSONSerialization.m */; };
+		CDB6EB0718B413CF00FD854E /* NSDictionary+BDParseJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB6EAD918B413CE00FD854E /* NSDictionary+BDParseJSON.h */; };
+		CDB6EB0818B413CF00FD854E /* NSDictionary+BDParseJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6EADA18B413CE00FD854E /* NSDictionary+BDParseJSON.m */; };
+		CDB6EB0918B413CF00FD854E /* NSObject+BDJSONSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB6EADB18B413CE00FD854E /* NSObject+BDJSONSerialization.h */; };
+		CDB6EB0A18B413CF00FD854E /* NSObject+BDJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6EADC18B413CE00FD854E /* NSObject+BDJSONSerialization.m */; };
+		CDB6EB0B18B413CF00FD854E /* NSString+BDJSONSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB6EADD18B413CE00FD854E /* NSString+BDJSONSerialization.h */; };
+		CDB6EB0C18B413CF00FD854E /* NSString+BDJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6EADE18B413CF00FD854E /* NSString+BDJSONSerialization.m */; };
+		CDB6EB0D18B413CF00FD854E /* NSString+BDUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB6EAE018B413CF00FD854E /* NSString+BDUtilities.h */; };
+		CDB6EB0E18B413CF00FD854E /* NSString+BDUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6EAE118B413CF00FD854E /* NSString+BDUtilities.m */; };
+		CDB6EB0F18B413CF00FD854E /* BDError.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB6EAE318B413CF00FD854E /* BDError.h */; };
+		CDB6EB1018B413CF00FD854E /* BDError.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6EAE418B413CF00FD854E /* BDError.m */; };
+		CDB6EB1118B413CF00FD854E /* BDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB6EAEA18B413CF00FD854E /* BDLog.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = TiRSA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DD6CF71134B3F500162E58 /* TiRsaModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiRsaModule.h; path = Classes/TiRsaModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* TiRsaModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiRsaModule.m; path = Classes/TiRsaModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* TiRsaModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiRsaModuleAssets.h; path = Classes/TiRsaModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* TiRsaModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiRsaModuleAssets.m; path = Classes/TiRsaModuleAssets.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* TiRsa_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiRsa_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CDB6EAB718B413CE00FD854E /* BDAESCBC256Cryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDAESCBC256Cryptor.h; sourceTree = "<group>"; };
+		CDB6EAB818B413CE00FD854E /* BDAESCBC256Cryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDAESCBC256Cryptor.m; sourceTree = "<group>"; };
+		CDB6EAB918B413CE00FD854E /* BDAESCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDAESCryptor.h; sourceTree = "<group>"; };
+		CDB6EABA18B413CE00FD854E /* BDAESCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDAESCryptor.m; sourceTree = "<group>"; };
+		CDB6EABB18B413CE00FD854E /* BDCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDCryptor.h; sourceTree = "<group>"; };
+		CDB6EABC18B413CE00FD854E /* BDCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDCryptor.m; sourceTree = "<group>"; };
+		CDB6EABD18B413CE00FD854E /* BDCryptorError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDCryptorError.h; sourceTree = "<group>"; };
+		CDB6EABE18B413CE00FD854E /* BDCryptorError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDCryptorError.m; sourceTree = "<group>"; };
+		CDB6EABF18B413CE00FD854E /* BDRSACryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDRSACryptor.h; sourceTree = "<group>"; };
+		CDB6EAC018B413CE00FD854E /* BDRSACryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDRSACryptor.m; sourceTree = "<group>"; };
+		CDB6EAC118B413CE00FD854E /* BDRSACryptorKeyPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDRSACryptorKeyPair.h; sourceTree = "<group>"; };
+		CDB6EAC218B413CE00FD854E /* BDRSACryptorKeyPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDRSACryptorKeyPair.m; sourceTree = "<group>"; };
+		CDB6EAC318B413CE00FD854E /* BDSHA512Cryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSHA512Cryptor.h; sourceTree = "<group>"; };
+		CDB6EAC418B413CE00FD854E /* BDSHA512Cryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDSHA512Cryptor.m; sourceTree = "<group>"; };
+		CDB6EAC818B413CE00FD854E /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		CDB6EAC918B413CE00FD854E /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		CDB6EACA18B413CE00FD854E /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		CDB6EACB18B413CE00FD854E /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		CDB6EAD018B413CE00FD854E /* BDJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDJSON.h; sourceTree = "<group>"; };
+		CDB6EAD118B413CE00FD854E /* BDJSONError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDJSONError.h; sourceTree = "<group>"; };
+		CDB6EAD218B413CE00FD854E /* BDJSONError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDJSONError.m; sourceTree = "<group>"; };
+		CDB6EAD318B413CE00FD854E /* NSArray+BDJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BDJSONSerialization.h"; sourceTree = "<group>"; };
+		CDB6EAD418B413CE00FD854E /* NSArray+BDJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BDJSONSerialization.m"; sourceTree = "<group>"; };
+		CDB6EAD518B413CE00FD854E /* NSData+BDJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+BDJSONSerialization.h"; sourceTree = "<group>"; };
+		CDB6EAD618B413CE00FD854E /* NSData+BDJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+BDJSONSerialization.m"; sourceTree = "<group>"; };
+		CDB6EAD718B413CE00FD854E /* NSDictionary+BDJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BDJSONSerialization.h"; sourceTree = "<group>"; };
+		CDB6EAD818B413CE00FD854E /* NSDictionary+BDJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BDJSONSerialization.m"; sourceTree = "<group>"; };
+		CDB6EAD918B413CE00FD854E /* NSDictionary+BDParseJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BDParseJSON.h"; sourceTree = "<group>"; };
+		CDB6EADA18B413CE00FD854E /* NSDictionary+BDParseJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BDParseJSON.m"; sourceTree = "<group>"; };
+		CDB6EADB18B413CE00FD854E /* NSObject+BDJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BDJSONSerialization.h"; sourceTree = "<group>"; };
+		CDB6EADC18B413CE00FD854E /* NSObject+BDJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BDJSONSerialization.m"; sourceTree = "<group>"; };
+		CDB6EADD18B413CE00FD854E /* NSString+BDJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BDJSONSerialization.h"; sourceTree = "<group>"; };
+		CDB6EADE18B413CF00FD854E /* NSString+BDJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BDJSONSerialization.m"; sourceTree = "<group>"; };
+		CDB6EAE018B413CF00FD854E /* NSString+BDUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BDUtilities.h"; sourceTree = "<group>"; };
+		CDB6EAE118B413CF00FD854E /* NSString+BDUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BDUtilities.m"; sourceTree = "<group>"; };
+		CDB6EAE318B413CF00FD854E /* BDError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDError.h; sourceTree = "<group>"; };
+		CDB6EAE418B413CF00FD854E /* BDError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDError.m; sourceTree = "<group>"; };
+		CDB6EAEA18B413CF00FD854E /* BDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDLog.h; sourceTree = "<group>"; };
+		D2AAC07E0554694100DB518D /* libTiRsa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTiRsa.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libTiRsa.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* TiRSA */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = TiRSA;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CDB6EAB518B413CE00FD854E /* Crypto */,
+				24DE9E0F11C5FE74003F90F6 /* TiRsaModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* TiRsaModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* TiRsaModule.h */,
+				24DD6CF81134B3F500162E58 /* TiRsaModule.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* TiRsa_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		CDB6EAB518B413CE00FD854E /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				CDB6EAB618B413CE00FD854E /* Crypto */,
+				CDB6EAC618B413CE00FD854E /* External */,
+				CDB6EACC18B413CE00FD854E /* Utilities */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		CDB6EAB618B413CE00FD854E /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				CDB6EAB718B413CE00FD854E /* BDAESCBC256Cryptor.h */,
+				CDB6EAB818B413CE00FD854E /* BDAESCBC256Cryptor.m */,
+				CDB6EAB918B413CE00FD854E /* BDAESCryptor.h */,
+				CDB6EABA18B413CE00FD854E /* BDAESCryptor.m */,
+				CDB6EABB18B413CE00FD854E /* BDCryptor.h */,
+				CDB6EABC18B413CE00FD854E /* BDCryptor.m */,
+				CDB6EABD18B413CE00FD854E /* BDCryptorError.h */,
+				CDB6EABE18B413CE00FD854E /* BDCryptorError.m */,
+				CDB6EABF18B413CE00FD854E /* BDRSACryptor.h */,
+				CDB6EAC018B413CE00FD854E /* BDRSACryptor.m */,
+				CDB6EAC118B413CE00FD854E /* BDRSACryptorKeyPair.h */,
+				CDB6EAC218B413CE00FD854E /* BDRSACryptorKeyPair.m */,
+				CDB6EAC318B413CE00FD854E /* BDSHA512Cryptor.h */,
+				CDB6EAC418B413CE00FD854E /* BDSHA512Cryptor.m */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		CDB6EAC618B413CE00FD854E /* External */ = {
+			isa = PBXGroup;
+			children = (
+				CDB6EAC718B413CE00FD854E /* Base64 */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		CDB6EAC718B413CE00FD854E /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				CDB6EAC818B413CE00FD854E /* NSData+Base64.h */,
+				CDB6EAC918B413CE00FD854E /* NSData+Base64.m */,
+				CDB6EACA18B413CE00FD854E /* NSString+Base64.h */,
+				CDB6EACB18B413CE00FD854E /* NSString+Base64.m */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		CDB6EACC18B413CE00FD854E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CDB6EACD18B413CE00FD854E /* General */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CDB6EACD18B413CE00FD854E /* General */ = {
+			isa = PBXGroup;
+			children = (
+				CDB6EACE18B413CE00FD854E /* Categories */,
+				CDB6EAE218B413CF00FD854E /* Error */,
+				CDB6EAE518B413CF00FD854E /* HTTP */,
+				CDB6EAE818B413CF00FD854E /* Macros */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		CDB6EACE18B413CE00FD854E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				CDB6EACF18B413CE00FD854E /* JSON */,
+				CDB6EADF18B413CF00FD854E /* String */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		CDB6EACF18B413CE00FD854E /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				CDB6EAD018B413CE00FD854E /* BDJSON.h */,
+				CDB6EAD118B413CE00FD854E /* BDJSONError.h */,
+				CDB6EAD218B413CE00FD854E /* BDJSONError.m */,
+				CDB6EAD318B413CE00FD854E /* NSArray+BDJSONSerialization.h */,
+				CDB6EAD418B413CE00FD854E /* NSArray+BDJSONSerialization.m */,
+				CDB6EAD518B413CE00FD854E /* NSData+BDJSONSerialization.h */,
+				CDB6EAD618B413CE00FD854E /* NSData+BDJSONSerialization.m */,
+				CDB6EAD718B413CE00FD854E /* NSDictionary+BDJSONSerialization.h */,
+				CDB6EAD818B413CE00FD854E /* NSDictionary+BDJSONSerialization.m */,
+				CDB6EAD918B413CE00FD854E /* NSDictionary+BDParseJSON.h */,
+				CDB6EADA18B413CE00FD854E /* NSDictionary+BDParseJSON.m */,
+				CDB6EADB18B413CE00FD854E /* NSObject+BDJSONSerialization.h */,
+				CDB6EADC18B413CE00FD854E /* NSObject+BDJSONSerialization.m */,
+				CDB6EADD18B413CE00FD854E /* NSString+BDJSONSerialization.h */,
+				CDB6EADE18B413CF00FD854E /* NSString+BDJSONSerialization.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		CDB6EADF18B413CF00FD854E /* String */ = {
+			isa = PBXGroup;
+			children = (
+				CDB6EAE018B413CF00FD854E /* NSString+BDUtilities.h */,
+				CDB6EAE118B413CF00FD854E /* NSString+BDUtilities.m */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		CDB6EAE218B413CF00FD854E /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				CDB6EAE318B413CF00FD854E /* BDError.h */,
+				CDB6EAE418B413CF00FD854E /* BDError.m */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		CDB6EAE518B413CF00FD854E /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				CDB6EAE618B413CF00FD854E /* HTTPURLResponse */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		CDB6EAE618B413CF00FD854E /* HTTPURLResponse */ = {
+			isa = PBXGroup;
+			children = (
+				CDB6EAE718B413CF00FD854E /* HTTPURLJSONArrayResponse */,
+			);
+			path = HTTPURLResponse;
+			sourceTree = "<group>";
+		};
+		CDB6EAE718B413CF00FD854E /* HTTPURLJSONArrayResponse */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HTTPURLJSONArrayResponse;
+			sourceTree = "<group>";
+		};
+		CDB6EAE818B413CF00FD854E /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				CDB6EAE918B413CF00FD854E /* Log */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		CDB6EAE918B413CF00FD854E /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				CDB6EAEA18B413CF00FD854E /* BDLog.h */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB6EAED18B413CF00FD854E /* BDAESCryptor.h in Headers */,
+				AA747D9F0F9514B9006C5449 /* TiRsa_Prefix.pch in Headers */,
+				CDB6EB0518B413CF00FD854E /* NSDictionary+BDJSONSerialization.h in Headers */,
+				CDB6EB0318B413CF00FD854E /* NSData+BDJSONSerialization.h in Headers */,
+				CDB6EAEF18B413CF00FD854E /* BDCryptor.h in Headers */,
+				CDB6EB0918B413CF00FD854E /* NSObject+BDJSONSerialization.h in Headers */,
+				CDB6EB0718B413CF00FD854E /* NSDictionary+BDParseJSON.h in Headers */,
+				CDB6EAFF18B413CF00FD854E /* BDJSONError.h in Headers */,
+				CDB6EAF318B413CF00FD854E /* BDRSACryptor.h in Headers */,
+				CDB6EB0D18B413CF00FD854E /* NSString+BDUtilities.h in Headers */,
+				CDB6EAFC18B413CF00FD854E /* NSString+Base64.h in Headers */,
+				CDB6EAEB18B413CF00FD854E /* BDAESCBC256Cryptor.h in Headers */,
+				CDB6EB0F18B413CF00FD854E /* BDError.h in Headers */,
+				CDB6EAF118B413CF00FD854E /* BDCryptorError.h in Headers */,
+				CDB6EAFE18B413CF00FD854E /* BDJSON.h in Headers */,
+				24DD6CF91134B3F500162E58 /* TiRsaModule.h in Headers */,
+				CDB6EAFA18B413CF00FD854E /* NSData+Base64.h in Headers */,
+				CDB6EB0B18B413CF00FD854E /* NSString+BDJSONSerialization.h in Headers */,
+				CDB6EB0118B413CF00FD854E /* NSArray+BDJSONSerialization.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* TiRsaModuleAssets.h in Headers */,
+				CDB6EB1118B413CF00FD854E /* BDLog.h in Headers */,
+				CDB6EAF718B413CF00FD854E /* BDSHA512Cryptor.h in Headers */,
+				CDB6EAF518B413CF00FD854E /* BDRSACryptorKeyPair.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* TiRSA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "TiRSA" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TiRSA;
+			productName = TiRSA;
+			productReference = D2AAC07E0554694100DB518D /* libTiRsa.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "TiRSA" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* TiRSA */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* TiRSA */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB6EAF418B413CF00FD854E /* BDRSACryptor.m in Sources */,
+				24DD6CFA1134B3F500162E58 /* TiRsaModule.m in Sources */,
+				CDB6EB0E18B413CF00FD854E /* NSString+BDUtilities.m in Sources */,
+				CDB6EB0818B413CF00FD854E /* NSDictionary+BDParseJSON.m in Sources */,
+				CDB6EB0A18B413CF00FD854E /* NSObject+BDJSONSerialization.m in Sources */,
+				CDB6EAEC18B413CF00FD854E /* BDAESCBC256Cryptor.m in Sources */,
+				CDB6EB0618B413CF00FD854E /* NSDictionary+BDJSONSerialization.m in Sources */,
+				CDB6EAF818B413CF00FD854E /* BDSHA512Cryptor.m in Sources */,
+				CDB6EAF218B413CF00FD854E /* BDCryptorError.m in Sources */,
+				CDB6EB0C18B413CF00FD854E /* NSString+BDJSONSerialization.m in Sources */,
+				CDB6EAF618B413CF00FD854E /* BDRSACryptorKeyPair.m in Sources */,
+				CDB6EB0218B413CF00FD854E /* NSArray+BDJSONSerialization.m in Sources */,
+				CDB6EB1018B413CF00FD854E /* BDError.m in Sources */,
+				CDB6EB0018B413CF00FD854E /* BDJSONError.m in Sources */,
+				CDB6EAFD18B413CF00FD854E /* NSString+Base64.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* TiRsaModuleAssets.m in Sources */,
+				CDB6EAFB18B413CF00FD854E /* NSData+Base64.m in Sources */,
+				CDB6EB0418B413CF00FD854E /* NSData+BDJSONSerialization.m in Sources */,
+				CDB6EAEE18B413CF00FD854E /* BDAESCryptor.m in Sources */,
+				CDB6EAF018B413CF00FD854E /* BDCryptor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* TiRSA */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/TiRsa.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiRsa_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = TiRsa;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/TiRsa.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiRsa_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = TiRsa;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/TiRsa.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiRsa_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = TiRsa;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/TiRsa.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiRsa_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = TiRsa;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "TiRSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "TiRSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

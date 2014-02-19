@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0
+apiversion: 2
+description: Wrapper for RSA
+author: Moritz Knecht
+license: MIT License
+copyright: 2013
+
+
+# these should not be edited
+name: TiRSA
+moduleid: ti.rsa
+guid: 1071b831-0061-4d74-91ed-6003c7793730
+platform: iphone
+minsdk: 3.2.1.GA
